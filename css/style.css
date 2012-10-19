@@ -1,0 +1,59 @@
+html {
+  background-color: rgb(60, 209, 177);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.face {
+  position: absolute;
+  border: 8px solid #000;
+  border-radius: 30px;
+  background-color: rgb(182, 229, 190);
+  width: 800px;
+  height: 600px;
+  left: 50%;
+  margin-left: -400px;
+  top: 50px;
+}
+
+.face .eyes {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  right: 20%;
+  height: 12%;
+}
+
+.face .eyes .eye {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 15%;
+  background-color: #000;
+}
+
+.face .eyes .eye:nth-child(0) {
+  left: 0;
+}
+
+.face .eyes .eye:nth-child(1) {
+  right: 0;
+}
+
+.face .mouth {
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  top: 50%;
+  height: 12%;
+  background-color: #000;
+}
